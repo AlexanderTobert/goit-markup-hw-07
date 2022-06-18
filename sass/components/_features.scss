@@ -6,10 +6,9 @@
 .features__element {
   margin-right: 30px;
   width: 270px;
-}
-
-.features__element:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .features__icon {

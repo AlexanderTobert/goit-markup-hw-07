@@ -6,8 +6,7 @@
 
 .filtres__type {
   margin-right: 8px;
-}
-
-.filtres__type:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }

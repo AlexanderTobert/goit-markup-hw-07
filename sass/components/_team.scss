@@ -23,11 +23,14 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.team__cards:last-child {
-  margin-right: 0;
-}
+// .team__cards:last-child {
+//   margin-right: 0;
+// }
 
 .team__info {
   display: block;
@@ -63,11 +66,14 @@
   margin-right: 10px;
   /* width: 44px;
   height: 44px; */
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.social-bar__link:last-child {
-  margin-right: 0px;
-}
+// .social-bar__link:last-child {
+//   margin-right: 0px;
+// }
 
 .social-bar__item {
   display: flex;
@@ -80,10 +86,16 @@
   fill: $primary-icon-color;
   transition: fill $animation-timimg $animation-function,
     background-color $animation-timimg $animation-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $butons-text-color;
+  }
 }
 
-.social-bar__item:hover,
-.social-bar__item:focus {
-  background-color: $accent-color;
-  fill: $butons-text-color;
-}
+// .social-bar__item:hover,
+// .social-bar__item:focus {
+//   background-color: $accent-color;
+//   fill: $butons-text-color;
+// }

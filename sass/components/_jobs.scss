@@ -11,10 +11,9 @@
   position: relative;
   margin-right: 30px;
   display: block;
-}
-
-.jobs__example:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .jobs__item {

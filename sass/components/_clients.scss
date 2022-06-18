@@ -9,11 +9,19 @@
   display: block;
   width: 170px;
   height: 92px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
 }
 
-.clients__partners:last-child {
-  margin-right: 0;
-}
+// .clients__partners:last-child {
+//   margin-right: 0;
+// }
 
 .clients__company-logo {
   display: flex;
@@ -30,12 +38,18 @@
 
   transition: fill $animation-timimg $animation-function,
     border-color $animation-timimg $animation-function;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
 }
 
-.clients__partners:hover,
-.clients__partners:focus,
-.clients__company-logo:focus,
-.clients__company-logo:hover {
-  fill: $accent-color;
-  border-color: $accent-color;
-}
+// .clients__partners:hover,
+// .clients__partners:focus,
+// .clients__company-logo:focus,
+// .clients__company-logo:hover {
+//   fill: $accent-color;
+//   border-color: $accent-color;
+// }
