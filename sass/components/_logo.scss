@@ -10,8 +10,8 @@
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
-}
 
-.logo span {
-  color: $accent-color;
+  &--title {
+    color: $accent-color;
+  }
 }
