@@ -173,18 +173,6 @@ body {
   background-color: #2196f3;
 }
 
-/* .button.order {
-  color: $butons-text-color;
-  background-color: $accent-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-
-  border-radius: 5px;
-  padding: 10px 32px;
-  align-items: center;
-  text-align: center;
-} */
 .section,
 .feature {
   padding-top: 94px;
@@ -227,7 +215,7 @@ body {
   padding-bottom: 24px;
 }
 
-.logo span {
+.logo--title {
   color: #2196f3;
 }
 
