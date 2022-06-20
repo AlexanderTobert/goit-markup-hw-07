@@ -20,10 +20,6 @@
   }
 }
 
-// .backdrop.is-hidden .modal {
-//   transform: translate(-50%, -50%) scale(0.9);
-// }
-
 .modal {
   position: absolute;
   top: 50%;
@@ -67,12 +63,6 @@
     fill: $accent-color;
   }
 }
-
-// .modal__close-btn > .modal__item:hover,
-// .modal__close-btn > .modal__item:focus {
-//   border-color: $accent-color;
-//   fill: $accent-color;
-// }
 
 .modal__container {
   display: flex;
