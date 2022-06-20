@@ -19,10 +19,6 @@
   }
 }
 
-// .clients__partners:last-child {
-//   margin-right: 0;
-// }
-
 .clients__company-logo {
   display: flex;
   width: 170px;
@@ -45,11 +41,3 @@
     border-color: $accent-color;
   }
 }
-
-// .clients__partners:hover,
-// .clients__partners:focus,
-// .clients__company-logo:focus,
-// .clients__company-logo:hover {
-//   fill: $accent-color;
-//   border-color: $accent-color;
-// }
